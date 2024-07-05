@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RegisterComponent } from "../register/register.component";
+import { NgxSpinner } from 'ngx-spinner';
 
 @Component({
     selector: 'app-home',

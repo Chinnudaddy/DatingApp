@@ -3,6 +3,7 @@ import { Injectable, inject, signal } from '@angular/core';
 import { User } from '../_models/user';
 import { map } from 'rxjs';
 import { environment } from '../../environments/environment';
+import { Member } from '../_models/member';
 
 @Injectable({
   providedIn: 'root'
